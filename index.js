@@ -5,8 +5,7 @@ const util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 function promtUser() {
-    return inquirer.promt([
-        {
+    return inquirer.promt([{
             type: "input",
             message: "What is the name of your Project?",
             name: "title"
@@ -65,9 +64,24 @@ function promtUser() {
     ]);
 }
 
-// function to write README file
-function writeToFile(fileName, data) {
+function generateMarkdown(response) {
+    return `
+    # $(response.title)
+    
+    # Table of Contents
+    
+    - [Decription](#description)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contributin](#contribution)
+    - [Test](#test)
+    - [Credits](#credits)
+    - [License](#license)
+    - [Questions](#questions)`
 }
+
+// function to write README file
+function writeToFile(fileName, data) {}
 
 // function to initialize program
 function init() {
@@ -76,5 +90,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-
