@@ -104,7 +104,13 @@ function generateMarkdown(response) {
      
     - [License](https://opensource.org/licenses/${response.license})
     
-    `
+    ## Questions: 
+     For questions about the Generator you can go to my
+     GitHub page at the following Link:
+     
+    - [GitHub Profile](https://github.com/${response.username})
+    
+    For additional questions please reatch out to my email at ${response.email}`
 }
 
 // function to write README file
