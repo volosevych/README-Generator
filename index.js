@@ -77,7 +77,34 @@ function generateMarkdown(response) {
     - [Test](#test)
     - [Credits](#credits)
     - [License](#license)
-    - [Questions](#questions)`
+    - [Questions](#questions)
+    
+    ## Description:
+    ![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Bagde")
+    
+    ${response.description}
+    
+    ##Instalation: 
+    ${response.installation}
+    
+    ##Usage:
+    ${response.usage}
+    
+    ##Contribution:
+    ${response.contribution}
+    
+    ##Test: 
+    ${response.test}
+    
+    ## Credits: 
+    ${response.credits}
+    
+    ## License: 
+     For more information about the License, click on the link below.
+     
+    - [License](https://opensource.org/licenses/${response.license})
+    
+    `
 }
 
 // function to write README file
