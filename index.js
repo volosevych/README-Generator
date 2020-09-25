@@ -1,6 +1,6 @@
-const inquirer = require("inquirer");
-const fs = require("fs");
-const util = require("util");
+var inquirer = require("inquirer");
+var fs = require("fs");
+var util = require("util");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -113,12 +113,18 @@ function generateMarkdown(response) {
     For additional questions please reatch out to my email at ${response.email}`
 }
 
-// function to write README file
-function writeToFile(fileName, data) {}
-
 // function to initialize program
-function init() {
+async function init() {
+    try {
+        const response = await promtUser();
 
+        const readMe = generateMarkdown(response);
+
+        await writeFileAsync("README.md", readMe);
+        console.log("Success!");
+    } catch(err) {
+        
+    }
 }
 
 // function call to initialize program
