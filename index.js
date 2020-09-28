@@ -66,7 +66,7 @@ function promtUser() {
 
 function generateMarkdown(response) {
     return `
-    # $(response.title)
+    # ${response.title}
     
     # Table of Contents
     
