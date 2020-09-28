@@ -66,51 +66,40 @@ function promtUser() {
 
 function generateMarkdown(response) {
     return `
-    # ${response.title}
-    
-    # Table of Contents
-    
-    - [Decription](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributin](#contribution)
-    - [Test](#test)
-    - [Credits](#credits)
-    - [License](#license)
-    - [Questions](#questions)
-    
-    ## Description:
-    ![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Bagde")
-    
+# ${response.title}
+# Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage) 
+- [Contributing](#contributing)
+- [Test](#test)
+- [Credits](#credits)
+- [License](#license) 
+- [Questions](#questions)
+## Description:
+![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
     ${response.description}
-    
-    ##Instalation: 
+## Installation:
     ${response.installation}
-    
-    ##Usage:
+## Usage:
     ${response.usage}
-    
-    ##Contribution:
+## Contributing:
     ${response.contribution}
-    
-    ##Test: 
+## Test:
     ${response.test}
+## Credits:
+    ${response.credit}
+## License:
+    For more information about the License, click on the link below.
     
-    ## Credits: 
-    ${response.credits}
-    
-    ## License: 
-     For more information about the License, click on the link below.
-     
-    - [License](https://opensource.org/licenses/${response.license})
-    
-    ## Questions: 
-     For questions about the Generator you can go to my
-     GitHub page at the following Link:
-     
-    - [GitHub Profile](https://github.com/${response.username})
-    
-    For additional questions please reatch out to my email at ${response.email}`
+- [License](https://opensource.org/licenses/${response.license})
+## Questions:
+    For questions about the Generator you can go to my 
+    GitHub page at the following Link: 
+- [GitHub Profile](https://github.com/${response.username})
+For additional questions please reach out to my email at: ${response.email}.
+    Here is a video on how to work the application.
+`;
 }
 
 // function to initialize program
