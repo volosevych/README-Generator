@@ -1,30 +1,29 @@
-
-    # My Awesome Readme.md Generator
+ # My Awesome Readme.md Generator
     
-    # Table of Contents
+ # Table of Contents
     
-    - [Decription](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributin](#contribution)
-    - [Test](#test)
-    - [Credits](#credits)
-    - [License](#license)
-    - [Questions](#questions)
+- [Decription](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributin](#contribution)
+- [Test](#test)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
     
-    ## Description:
-    ![License](https://img.shields.io/badge/License--blue.svg "License Bagde")
+ ## Description:
+![License](https://img.shields.io/badge/License--blue.svg "License Bagde")
     
-    For run this application a user should have Node.js and util, fs and inquirer intalled before you run this application.
+For run this application a user should have Node.js and util, fs and inquirer intalled before you run this application.
     
-    ##Instalation: 
-    NONE
+##Instalation: 
+NONE
     
-    ##Usage:
-    For quickly create the README.md file.
+##Usage:
+For quickly create the README.md file.
     
-    ##Contribution:
-    Lovely UoU Bootcamp.
+##Contribution:
+Lovely UoU Bootcamp.
     
     ##Test: 
     NONE
