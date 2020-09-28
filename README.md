@@ -31,4 +31,3 @@
     GitHub page at the following Link: 
 - [GitHub Profile](https://github.com/volosevych)
 For additional questions please reach out to my email at: volosevichh@gmail.com.
-    Here is a video on how to work the application.
