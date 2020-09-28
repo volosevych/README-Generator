@@ -5,7 +5,7 @@ var util = require("util");
 const writeFileAsync = util.promisify(fs.writeFile);
 
 function promtUser() {
-    return inquirer.promt([{
+    return inquirer.prompt([{
             type: "input",
             message: "What is the name of your Project?",
             name: "title"
@@ -123,7 +123,7 @@ async function init() {
         await writeFileAsync("README.md", readMe);
         console.log("Success!");
     } catch(err) {
-        
+        console.log(err);
     }
 }
 
