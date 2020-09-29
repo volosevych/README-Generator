@@ -21,7 +21,7 @@
 ## Test:
     NONE
 ## Credits:
-    My  and lovely UoU Bootcamp.
+    Me and lovely UoU Bootcamp.
 ## License:
     For more information about the License, click on the link below.
     
