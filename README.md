@@ -32,4 +32,4 @@
 - [GitHub Profile](https://github.com/volosevych)
 For additional questions please reach out to my email at: volosevichh@gmail.com.
     Here is a video on how to work the application.
-[![Watch the video](https://www.youtube.com/watch?v=jiU87qBsveQ)
+- [Watch the video](https://www.youtube.com/watch?v=jiU87qBsveQ)
