@@ -66,7 +66,9 @@ function promtUser() {
 
 function generateMarkdown(response) {
     return `
-# ${response.title}
+<p align="center">
+  <h3 align="center">${response.title}</h3>
+  
 # Table of Contents
 - [Description](#description)
 - [Installation](#installation)
