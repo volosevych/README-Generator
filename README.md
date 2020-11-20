@@ -1,7 +1,7 @@
 <p align="center">
   <h3 align="center">My awesome README.md Generator</h3>
   
-# Table of Contents
+## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage) 

@@ -68,8 +68,8 @@ function generateMarkdown(response) {
     return `
 <p align="center">
   <h3 align="center">${response.title}</h3>
-  
-# Table of Contents
+
+## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage) 
